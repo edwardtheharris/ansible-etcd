@@ -1,0 +1,8 @@
+#SPDX-License-Identifier: MIT-0
+---
+- name: Install etcd
+  community.general.pacman:
+    name: etcd
+    exectuable: yay
+    state: present
+# tasks file for etcd

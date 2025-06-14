@@ -1,0 +1,7 @@
+---
+- name: Install and configure standalone etcd
+  hosts: localhost
+  roles:
+    - role: etcd
+      tags:
+        - etcd
