@@ -21,9 +21,7 @@ roles/index
 :maxdepth: 3
 
 .github/index
-license
 readme
-security
 ```
 
 ```{index} metadata; repository
