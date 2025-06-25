@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pipenv = "*"
+ansible = "*"
+ansible-lint = "*"
+sphinx-copybutton = "*"
+sphinx-last-updated-by-git = "*"
+sphinxcontrib-autoyaml = "*"
+sphinx-book-theme = "*"
+myst-parser = {extras = ["linkify"], version = "*"}
+
+[dev-packages]
+sphinx = "*"
+sphinx-autobuild = "*"
+pre-commit = "*"
