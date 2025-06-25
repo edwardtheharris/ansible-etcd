@@ -16,3 +16,7 @@ repos:
     rev: 25.1.0
     hooks:
       - id: black
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.18.1
+    hooks:
+      - id: markdownlint-cli2
