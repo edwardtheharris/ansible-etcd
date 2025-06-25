@@ -11,3 +11,4 @@ ansible-lint = "*"
 [dev-packages]
 sphinx = "*"
 sphinx-autobuild = "*"
+pre-commit = "*"
