@@ -23,7 +23,7 @@ extensions = [
 ]
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-html_logo = "_static/img/k8s-the-hard-way.png"
+html_logo = "_static/img/etcd.png"
 html_sidebars = {
     "**": [
         "ablog/postcard.html",
@@ -57,7 +57,7 @@ myst_enable_extensions = [
 ]
 myst_links_external_new_tab = True
 myst_title_to_header = True
-project = "Kubernetes the Hard Way"
+project = "Ansible etcd role"
 release = "0.0.1"
 source_suffix = ".md"
 templates_path = ["_templates"]
