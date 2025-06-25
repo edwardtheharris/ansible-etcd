@@ -1,12 +1,12 @@
 ---
 abstract: >-
-  This is the documentation index for an Ansible role to deploy a  
+  This is the documentation index for an Ansible role to deploy a
   single node etcd cluster.
 authors:
    - name: Xander Harris
      email: xandertheharris@gmail.com
 date: 2024-03-08
-title: Etcd Roles Index 
+title: Etcd Roles Index
 ---
 
 ## Role Documentation
