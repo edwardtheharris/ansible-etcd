@@ -1,6 +1,6 @@
 ---
 abstract: Install etcd and enable the service on Arch
-authors
+authors:
   - name: Xander Harris
     email: xandertheharris@gmail.com
 title: Install and enable etcd
