@@ -7,6 +7,11 @@ name = "pypi"
 pipenv = "*"
 ansible = "*"
 ansible-lint = "*"
+sphinx-copybutton = "*"
+sphinx-last-updated-by-git = "*"
+sphinxcontrib-autoyaml = "*"
+sphinx-book-theme = "*"
+myst-parser = {extras = ["linkify"], version = "*"}
 
 [dev-packages]
 sphinx = "*"

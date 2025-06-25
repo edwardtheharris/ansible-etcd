@@ -14,8 +14,8 @@ copyright = "(c) 2025, Xander Harris <xandertheharris@gmail.com> All rights rese
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 exclude_patterns = ["_build", ".venv", "Thumbs.db", ".DS_Store"]
 extensions = [
-    "ablog",
     "myst_parser",
+    "sphinx_copybutton",
     "sphinx.ext.githubpages",
     "sphinx.ext.intersphinx",
     "sphinx_last_updated_by_git",
@@ -23,22 +23,10 @@ extensions = [
 ]
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+html_icon = "_static/img/etcd.png"
 html_logo = "_static/img/etcd.png"
-html_sidebars = {
-    "**": [
-        "ablog/postcard.html",
-        "ablog/recentposts.html",
-        "ablog/tagcloud.html",
-        "ablog/categories.html",
-        "ablog/archives.html",
-        "ablog/authors.html",
-        "ablog/languages.html",
-        "ablog/locations.html",
-    ]
-}
-
 html_static_path = ["_static"]
-html_theme = "press"
+html_theme = "sphinx_book_theme"
 # Myst Configuration
 # https://myst-parser.readthedocs.io/en/latest/configuration.html#extensions
 myst_enable_extensions = [
